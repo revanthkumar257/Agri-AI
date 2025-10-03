@@ -1,44 +1,149 @@
-# Agri-AI
+Here’s your content rewritten in a proper **README.md** format so you can directly copy and paste:
 
-A plant leaf disease detection project. The repository excludes large datasets, model checkpoints, and logs to keep the repo lightweight.
+```markdown
+# 🌾 Agri-AI: Plant Disease Detection
 
-## What’s included
-- Application code and metadata
-- `.gitignore` configured to exclude large artifacts (datasets, models, logs, `node_modules`)
+**Agri-AI** is a deep learning project focused on detecting plant diseases from leaf images using computer vision techniques.  
+It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** architecture trained on agricultural datasets to classify plant health with high accuracy.
 
-## What’s excluded (place locally)
-- Datasets: place under `agriai/Plant_leave_diseases_dataset_without_augmentation/`
-- Trained models/checkpoints: place under `agri_ai_final/models/` (e.g., `final_model.keras`)
-- TensorBoard logs/checkpoints: place under their original folders (they are ignored)
+🔗 **Complete Project (with datasets & trained models):** [Google Drive Link](#)
 
-These paths are ignored by Git and won’t be uploaded.
+---
 
-## Setup
-1. Python environment
-   - Python 3.10+
-   - Install requirements in `agri_ai_final/requirements.txt` or `agriai/requirements.txt` as needed:
-     - `pip install -r agri_ai_final/requirements.txt`
-     - `pip install -r agriai/requirements.txt`
+## ✨ Features
 
-2. Frontend (optional, archived sample in `agri_ai_final/archived/agrinew-main/`)
-   - Requires Node.js 18+
-   - From `agri_ai_final/archived/agrinew-main/`: `npm install && npm run dev`
+- ✅ Image classification for multiple plant diseases  
+- ✅ ResNet-like CNN architecture built from scratch  
+- ✅ Data augmentation for robust training  
+- ✅ Achieved ~99% accuracy on test set  
+- ✅ Model training, evaluation, and inference scripts  
+- ✅ Easy-to-use interface for predictions  
 
-## Running the backend
-- Typical entry points (depending on your setup):
-  - `python agri_ai_final/api.py`
-  - or `python agri_ai_final/run_app.py`
-  - or `python agri_ai_final/start_backend.py`
+---
 
-If your entry point differs, update this README and your start script accordingly.
+## 🛠️ Tech Stack
 
-## Models and datasets
-- Place your trained Keras model at `agri_ai_final/models/final_model.keras` (ignored)
-- Place the dataset at `agriai/Plant_leave_diseases_dataset_without_augmentation/` (ignored)
+- Python 3.10+  
+- TensorFlow / Keras  
+- NumPy, Pandas, Matplotlib  
+- OpenCV (image preprocessing)  
+- Jupyter Notebook (experimentation)  
+- Node.js 18+ (optional frontend)  
 
-If you want to distribute models/datasets:
-- Upload to cloud storage or a GitHub Release and add the download link here.
+---
 
-## Notes
-- Large artifacts are intentionally excluded to avoid multi-GB pushes and Git LFS requirements.
-- If you need Git LFS, enable it and remove ignore rules for specific file types.
+## 📊 Results
+
+- **Training Accuracy:** ~99.5%  
+- **Validation Accuracy:** ~99.2%  
+- **Performance:** State-of-the-art for plant disease detection  
+
+---
+
+## 📂 Repository Structure
+
+```
+
+Agri-AI/
+│── agriai/                          # Dataset folder (ignored in Git)
+│   └── Plant_leave_diseases_dataset_without_augmentation/
+│
+│── agri_ai_final/                   # Main project source
+│   │── models/                      # Place trained models (ignored in Git)
+│   │── api.py / run_app.py          # Backend entry points
+│   │── requirements.txt             # Python dependencies
+│   └── archived/                    # Old versions, sample frontend, etc.
+│
+│── README.md                        # Documentation
+│── .gitignore                       # Ignore unnecessary files
+
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/revanthkumar257/Agri-AI.git
+cd Agri-AI
+````
+
+### 2. Python Environment
+
+Install dependencies:
+
+```bash
+pip install -r agri_ai_final/requirements.txt
+pip install -r agriai/requirements.txt
+```
+
+### 3. Running the Backend
+
+Run one of the available entry points:
+
+```bash
+python agri_ai_final/api.py
+# or
+python agri_ai_final/run_app.py
+# or
+python agri_ai_final/start_backend.py
+```
+
+*(Update this section if your entry point differs.)*
+
+### 4. Frontend (Optional, Archived)
+
+Requires **Node.js 18+**:
+
+```bash
+cd agri_ai_final/archived/agrinew-main/
+npm install
+npm run dev
+```
+
+---
+
+## 📦 Models & Datasets
+
+### What’s Included
+
+* Application code and metadata
+* `.gitignore` configured to exclude large files (datasets, models, logs, node_modules)
+
+### What’s Excluded (must be placed locally)
+
+* **Datasets** → place under:
+
+  ```
+  agriai/Plant_leave_diseases_dataset_without_augmentation/
+  ```
+* **Trained models / checkpoints** → place under:
+
+  ```
+  agri_ai_final/models/final_model.keras
+  ```
+* **TensorBoard logs & checkpoints** → remain in their respective folders (ignored by Git)
+
+📌 To distribute models/datasets:
+
+* Upload them to cloud storage (Google Drive, S3, etc.) or a GitHub Release
+* Add the download link in this README
+
+---
+
+## 📝 Notes
+
+* Large artifacts are intentionally excluded to keep the repo lightweight and avoid Git LFS.
+* Use the Google Drive link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane for the full dataset, trained models, and logs.
+* This structure ensures contributors can run the code without multi-GB pushes.
+
+---
+
+## 🚀 Future Work
+
+* 🌐 Deploy model using Flask/Streamlit + React
+* 📊 Integrate with IoT devices for real-time field detection
+* 📈 Retrain continuously with new agricultural datasets
+
+
