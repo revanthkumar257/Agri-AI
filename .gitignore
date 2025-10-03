@@ -1,0 +1,55 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Envs
+.env
+.env.*
+
+# Logs
+logs/
+**/logs/
+*.log
+**/tensorboard_logs*/
+
+# Datasets and large artifacts
+agriai/Plant_leave_diseases_dataset_without_augmentation/
+modelsu/
+**/model_checkpoints*/
+
+# Large model/binary files
+*.keras
+*.h5
+*.ckpt
+*.tflite
+*.onnx
+*.pth
+*.pt
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.v2
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Build outputs
+/dist/
+/build/
+/.parcel-cache/
+/.next/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
