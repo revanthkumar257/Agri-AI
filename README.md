@@ -11,7 +11,7 @@
 **Agri-AI** is a deep learning project focused on detecting plant diseases from leaf images using computer vision techniques.  
 It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** architecture trained on agricultural datasets to classify plant health with high accuracy.
 
-🔗 **Complete Project (with datasets & trained models):** [Google Drive Link](#)
+🔗 **Complete Project (with datasets & trained models):** [Google Drive Link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane](#)
 
 ---
 
