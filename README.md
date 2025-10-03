@@ -1,7 +1,3 @@
-Perfect 🚀 Let’s finalize your **README.md** with the **Google Drive link** you provided and keep everything in a polished format.
-
-Here’s the **complete final version** ready to copy-paste into your repo:
-
 ```markdown
 # 🌾 Agri-AI: Plant Disease Detection
 
@@ -165,4 +161,5 @@ npm run dev
 🌐 [LinkedIn](https://www.linkedin.com/in/revanth-kumar-golagani) | [GitHub](https://github.com/revanthkumar257)
 
 ```
+
 
