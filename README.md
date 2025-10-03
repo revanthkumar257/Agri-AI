@@ -1,7 +1,12 @@
-Here’s your content rewritten in a proper **README.md** format so you can directly copy and paste:
-
-```markdown
 # 🌾 Agri-AI: Plant Disease Detection
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)  
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red.svg)  
+![License](https://img.shields.io/badge/License-MIT-green.svg)  
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+
+---
 
 **Agri-AI** is a deep learning project focused on detecting plant diseases from leaf images using computer vision techniques.  
 It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** architecture trained on agricultural datasets to classify plant health with high accuracy.
@@ -23,20 +28,20 @@ It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** archite
 
 ## 🛠️ Tech Stack
 
-- Python 3.10+  
-- TensorFlow / Keras  
-- NumPy, Pandas, Matplotlib  
-- OpenCV (image preprocessing)  
-- Jupyter Notebook (experimentation)  
-- Node.js 18+ (optional frontend)  
+- 🐍 Python 3.10+  
+- 🔶 TensorFlow / Keras  
+- 📊 NumPy, Pandas, Matplotlib  
+- 🖼️ OpenCV (image preprocessing)  
+- 📓 Jupyter Notebook (experimentation)  
+- 🌐 Node.js 18+ (optional frontend)  
 
 ---
 
 ## 📊 Results
 
-- **Training Accuracy:** ~99.5%  
-- **Validation Accuracy:** ~99.2%  
-- **Performance:** State-of-the-art for plant disease detection  
+- 📈 **Training Accuracy:** ~99.5%  
+- 📉 **Validation Accuracy:** ~99.2%  
+- 🏆 **Performance:** State-of-the-art for plant disease detection  
 
 ---
 
@@ -63,13 +68,13 @@ Agri-AI/
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repository
+### 🔹 1. Clone Repository
 ```bash
 git clone https://github.com/revanthkumar257/Agri-AI.git
 cd Agri-AI
 ````
 
-### 2. Python Environment
+### 🔹 2. Python Environment
 
 Install dependencies:
 
@@ -78,7 +83,7 @@ pip install -r agri_ai_final/requirements.txt
 pip install -r agriai/requirements.txt
 ```
 
-### 3. Running the Backend
+### 🔹 3. Running the Backend
 
 Run one of the available entry points:
 
@@ -92,7 +97,7 @@ python agri_ai_final/start_backend.py
 
 *(Update this section if your entry point differs.)*
 
-### 4. Frontend (Optional, Archived)
+### 🔹 4. Frontend (Optional, Archived)
 
 Requires **Node.js 18+**:
 
@@ -106,24 +111,24 @@ npm run dev
 
 ## 📦 Models & Datasets
 
-### What’s Included
+### ✅ What’s Included
 
-* Application code and metadata
-* `.gitignore` configured to exclude large files (datasets, models, logs, node_modules)
+* 📂 Application code and metadata
+* ⚙️ `.gitignore` configured to exclude large files (datasets, models, logs, node_modules)
 
-### What’s Excluded (must be placed locally)
+### ❌ What’s Excluded (must be placed locally)
 
-* **Datasets** → place under:
+* 📁 **Datasets** → place under:
 
   ```
   agriai/Plant_leave_diseases_dataset_without_augmentation/
   ```
-* **Trained models / checkpoints** → place under:
+* 🧠 **Trained models / checkpoints** → place under:
 
   ```
   agri_ai_final/models/final_model.keras
   ```
-* **TensorBoard logs & checkpoints** → remain in their respective folders (ignored by Git)
+* 📑 **TensorBoard logs & checkpoints** → remain in their respective folders (ignored by Git)
 
 📌 To distribute models/datasets:
 
@@ -134,9 +139,9 @@ npm run dev
 
 ## 📝 Notes
 
-* Large artifacts are intentionally excluded to keep the repo lightweight and avoid Git LFS.
-* Use the Google Drive link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane for the full dataset, trained models, and logs.
-* This structure ensures contributors can run the code without multi-GB pushes.
+* ⚠️ Large artifacts are intentionally excluded to keep the repo lightweight and avoid Git LFS.
+* 📥 Use the Google Drive link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane for the full dataset, trained models, and logs.
+* 🔄 This structure ensures contributors can run the code without multi-GB pushes.
 
 ---
 
@@ -146,4 +151,5 @@ npm run dev
 * 📊 Integrate with IoT devices for real-time field detection
 * 📈 Retrain continuously with new agricultural datasets
 
+```
 
