@@ -1,6 +1,5 @@
 
-
-```markdown
+```
 # 🌾 Agri-AI: Plant Disease Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -71,13 +70,13 @@ Agri-AI/
 
 ## ⚙️ Setup Instructions
 
-### 🔹 1. Clone Repository
+### 📥 Clone Repository
 ```bash
 git clone https://github.com/revanthkumar257/Agri-AI.git
 cd Agri-AI
 ````
 
-### 🔹 2. Python Environment
+### 🐍 Python Environment
 
 Install dependencies:
 
@@ -86,7 +85,7 @@ pip install -r agri_ai_final/requirements.txt
 pip install -r agriai/requirements.txt
 ```
 
-### 🔹 3. Running the Backend
+### ▶️ Running the Backend
 
 Run one of the available entry points:
 
@@ -100,7 +99,7 @@ python agri_ai_final/start_backend.py
 
 *(Update this section if your entry point differs.)*
 
-### 🔹 4. Frontend (Optional, Archived)
+### 🌐 Frontend (Optional, Archived)
 
 Requires **Node.js 18+**:
 
@@ -163,4 +162,5 @@ npm run dev
 🌐 [LinkedIn](https://www.linkedin.com/in/revanth-kumar-golagani) | [GitHub](https://github.com/revanthkumar257)
 
 ```
+
 
