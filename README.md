@@ -1,5 +1,4 @@
 
-```
 # 🌾 Agri-AI: Plant Disease Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -17,37 +16,39 @@ It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** archite
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Image classification for multiple plant diseases  
-- ✅ ResNet-like CNN architecture built from scratch  
-- ✅ Data augmentation for robust training  
-- ✅ Achieved ~99% accuracy on test set  
-- ✅ Model training, evaluation, and inference scripts  
-- ✅ Easy-to-use interface for predictions  
-
----
-
-## 🛠️ Tech Stack
-
-- 🐍 Python 3.10+  
-- 🔶 TensorFlow / Keras  
-- 📊 NumPy, Pandas, Matplotlib  
-- 🖼️ OpenCV (image preprocessing)  
-- 📓 Jupyter Notebook (experimentation)  
-- 🌐 Node.js 18+ (optional frontend)  
+- Image classification for multiple plant diseases  
+- ResNet-like CNN architecture built from scratch  
+- Data augmentation for robust training  
+- Achieved ~99% accuracy on test set  
+- Model training, evaluation, and inference scripts  
+- Easy-to-use interface for predictions  
 
 ---
 
-## 📊 Results
+## Tech Stack
 
-- 📈 **Training Accuracy:** ~99.5%  
-- 📉 **Validation Accuracy:** ~99.2%  
-- 🏆 **Performance:** State-of-the-art for plant disease detection  
+- Python 3.10+  
+- TensorFlow / Keras  
+- NumPy, Pandas, Matplotlib  
+- OpenCV (image preprocessing)  
+- Jupyter Notebook (experimentation)  
+- Node.js 18+ (optional frontend)  
 
 ---
 
-## 📂 Repository Structure
+## Results
+
+- Training Accuracy: ~99.5%  
+- Validation Accuracy: ~99.2%  
+- Performance: State-of-the-art for plant disease detection  
+
+---
+
+## Repository Structure
+
+
 
 ```
 
