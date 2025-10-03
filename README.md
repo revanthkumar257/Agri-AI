@@ -1,3 +1,8 @@
+Perfect 🚀 Let’s finalize your **README.md** with the **Google Drive link** you provided and keep everything in a polished format.
+
+Here’s the **complete final version** ready to copy-paste into your repo:
+
+```markdown
 # 🌾 Agri-AI: Plant Disease Detection
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
@@ -11,7 +16,7 @@
 **Agri-AI** is a deep learning project focused on detecting plant diseases from leaf images using computer vision techniques.  
 It leverages a custom **ResNet-like Convolutional Neural Network (CNN)** architecture trained on agricultural datasets to classify plant health with high accuracy.
 
-🔗 **Complete Project (with datasets & trained models):** [Google Drive Link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane](#)
+🔗 **Complete Project (with datasets & trained models):** [Google Drive Link](https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane)
 
 ---
 
@@ -132,15 +137,15 @@ npm run dev
 
 📌 To distribute models/datasets:
 
-* Upload them to cloud storage (Google Drive, S3, etc.) or a GitHub Release
-* Add the download link in this README
+* Download from [Google Drive](https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane)
+* Or upload them to GitHub Releases / Cloud storage if contributing
 
 ---
 
 ## 📝 Notes
 
 * ⚠️ Large artifacts are intentionally excluded to keep the repo lightweight and avoid Git LFS.
-* 📥 Use the Google Drive link: https://drive.google.com/drive/folders/137WIkw3wW4mebUUvjUSQlCkZunJytane for the full dataset, trained models, and logs.
+* 📥 Use the Google Drive link for the full dataset, trained models, and logs.
 * 🔄 This structure ensures contributors can run the code without multi-GB pushes.
 
 ---
@@ -150,6 +155,14 @@ npm run dev
 * 🌐 Deploy model using Flask/Streamlit + React
 * 📊 Integrate with IoT devices for real-time field detection
 * 📈 Retrain continuously with new agricultural datasets
+
+---
+
+## 👨‍💻 Author
+
+**Revanth Kumar Golagani**
+📧 [revanthyadavg05@gmail.com](mailto:revanthyadavg05@gmail.com)
+🌐 [LinkedIn](https://www.linkedin.com/in/revanth-kumar-golagani) | [GitHub](https://github.com/revanthkumar257)
 
 ```
 
